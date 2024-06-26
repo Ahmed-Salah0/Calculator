@@ -1,0 +1,51 @@
+
+.containar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.content{
+    background: #3a4452;
+    border-radius: 25px;
+    width: 310px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+input{
+    margin: 7px;
+    padding: 7px;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 25px;
+    
+}
+.display-input{
+    width: 80%;
+    padding: 0 10px;
+    cursor: auto;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.equl{
+background-color: aqua; 
+color: #3a4452;   
+}
+
+.de , .dot ,.ac{
+    background-color: rgb(224, 219, 219);
+    color: #000;
+}
+.star , .slash ,.mines, .plus {
+    background-color: orange;
+    color: #3a4452;
+}
